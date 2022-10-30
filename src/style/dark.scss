@@ -1,0 +1,112 @@
+.app.dark {
+  background-color: #1f1f38;
+  color: #4db5ff;
+
+  .chartGrid {
+    stroke: rgba(228, 228, 228, 0.219);
+  }
+
+  .table {
+    background-color: #2c2c6c;
+
+    .tableCell {
+      color: #4db5ff;
+    }
+  }
+
+  .navbar {
+    color: #4db5ff;
+    border-color: #2c2c6c;
+
+    .search {
+      border-color: #2c2c6c;
+    }
+  }
+
+  .sidebar {
+    background-color: #1f1f38;
+    border-color: #2c2c6c;
+
+    .top {
+      .logo {
+        color: rgba(255, 255, 255, 0.6);
+      }
+    }
+    hr {
+      border-color: #2c2c6c;
+    }
+    ul {
+      li {
+        &:hover {
+          background-color: rgba(77, 181, 255, 0.4);
+          transition: all 400ms ease;
+        }
+        .icon {
+          color: #4db5ff;
+        }
+      }
+    }
+  }
+
+  .datatable {
+    .link {
+      color: #1f1f38;
+      background-color: #4db5ff;
+      &:hover {
+        border: 1px solid #4db5ff;
+        color: #4db5ff;
+        background-color: #1f1f38;
+      }
+    }
+    .datagrid {
+      color: #4db5ff;
+      border: none;
+
+      .viewButton {
+        color: #4db5ff;
+        &:hover {
+          background-color: rgba(77, 181, 255, 0.4);
+        }
+      }
+
+      .deleteButton {
+        color: rgba(255, 255, 255, 0.6);
+      }
+
+      .cellWithStatus {
+        &.active {
+          color: rgb(1, 230, 1);
+          background-color: rgba(0, 130, 0, 0.151);
+        }
+        &.pending {
+          color: rgb(254, 200, 62);
+          background-color: rgba(218, 165, 32, 0.151);
+        }
+
+        &.passive {
+          color: rgb(255, 71, 108);
+          background-color: rgba(220, 20, 60, 0.229);
+        }
+      }
+    }
+  }
+  input {
+    background-color: #1f1f38;
+  }
+
+  .new {
+    .right {
+      form {
+        button {
+          color: #1f1f38;
+          background-color: #4db5ff;
+          &:hover {
+            border: 1px solid #4db5ff;
+            color: #4db5ff;
+            background-color: #1f1f38;
+          }
+        }
+      }
+    }
+  }
+}
